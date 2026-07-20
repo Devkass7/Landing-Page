@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+
+#navigation{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(1, 18, 18);
+}
+
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
