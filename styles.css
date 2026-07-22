@@ -42,6 +42,7 @@ header{
 .hero-text h1{
     font-size: 48px;
     color: #f9fAf8;
+
 }
 
 .hero-text p{
@@ -60,13 +61,14 @@ justify-content: center;
 margin-left: 50px;
 }
 
-.hero button{
+.sign-up,.sign{
     background-color: #3883f6;
     color: white;
-    padding: 10px;
+    padding: 8px 15px;
     border: none;
     border-radius: 8px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -110,3 +112,59 @@ main h2{
     display: flex;
     flex-direction: column;
 } */
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #e5e7eb;
+    padding:20px;
+}
+
+.customer-qoute{
+    width: 350px;
+    font-style: italic;
+}
+
+.qname{
+    margin-left: 250px;
+}
+
+.sign{
+border: 2px solid white;
+padding: 5px 25px;
+
+
+}
+
+.footer-items{
+    background-color: #3883f6;
+    padding: 20px;
+    color: white;
+    width: 1000px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+#copy{
+    background-color:#1F2937;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
